@@ -8,7 +8,8 @@ import java.net.URL;
 
 class ConversorDeMoedas {
 
-    private static final String api = "https://v6.exchangerate-api.com/v6/00d5249474829ed187e95b41/latest/";
+    //https://app.exchangerate-api.com/dashboard
+    private static final String api = "https://v6.exchangerate-api.com/v6/{api}/latest/";
 
     public double getConversionRate(String baseCurrency, String targetCurrency) {
         try {
